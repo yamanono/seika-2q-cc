@@ -8,7 +8,7 @@
 npm run build
 ```
 
-2. Brpower-syncの実行
+2. Browser-syncの実行
 ```
 npm run browser-sync
 ```
