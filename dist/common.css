@@ -1,0 +1,19 @@
+.swiper {
+	position: relative;
+	width: 500px;
+	height: 300px;
+  }
+  .swiper-title{
+	text-align: center;
+	font-weight: bold;
+  }
+  .swiper-slide div{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .swiper-slide div img{
+	width: 40%;
+	height: auto;
+  }
