@@ -1,17 +1,60 @@
+<!DOCTYPE html>
 <html>
-	<body>
-		<div>
+<head>
+	<style>
+		.rythm-bass {
+			position: relative;
+		}
 
+		.animate-hamster {
+			animation: moveHamster 2s infinite;
+		}
 
-			<!-- 標準スタイルの「rythm-bass」を設定 -->
-			<div class="rythm-bass"><img src="./img/hamster_sleeping_golden.png" />
-	    
-			</div>
-			<button id="play-button">play</button>
-	    
-	    
-		  </div>
-	    
-		<script src="app.js"></script>
-	</body>
+		.sakana {
+			animation: moveSakana 2s infinite;
+		}
+
+		@keyframes moveHamster {
+			0% { left: 0; }
+			50% { left: 50px; }
+			100% { left: 0; }
+		}
+
+		@keyframes moveSakana {
+			0% { left: 0; }
+			50% { left: 50px; }
+			100% { left: 0; }
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- ハムスターの要素 -->
+		<div class="rythm-bass animate-hamster"><img src="./img/hamster_sleeping_golden.png" /></div>
+	</div>
+	<div class="rythm-bass sakana"><img src="./img/kodai_sacabambaspis.png" /></div>
+
+	<button id="play-button">play</button>
+
+	<script src="app.js"></script>
+</body>
 </html>
+
+
+//<html>
+      <body>
+            <div>
+
+                  <!-- 標準スタイルの「rythm-bass」を設定 -->
+                  <div class="rythm-bass"><img src="./img/hamster_sleeping_golden.png" />
+          
+                  </div>
+                  <button id="play-button">play</button>
+          
+          
+              </div>
+          
+            <script src="app.js"></script>
+      </body>
+</html>
+
