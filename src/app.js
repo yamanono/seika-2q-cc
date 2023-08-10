@@ -5,7 +5,7 @@ button.addEventListener("click", play);
 
 function play() {
   var rythm = new Rythm();
-  rythm.setMusic("samples/rythmCß.mp3");
+  rythm.setMusic("samples/rythmC.mp3");
   rythm.start();
   console.log("play");
 }
